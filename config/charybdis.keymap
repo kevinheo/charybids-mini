@@ -29,10 +29,10 @@
         Lower {
             label = "Lower";
             bindings = <
-      &trans    &trans    &kp UP     &trans     &trans    &trans       &kp N7   &kp N8  &kp N9   &kp N0  &kp HOME   &kp F1
-      &trans  &kp LEFT  &kp DOWN  &kp RIGHT     &trans    &trans       &kp N4   &kp N5  &kp N6    &none    &trans  &kp F10
-&kp LEFT_ALT    &trans    &trans     &trans  &kp MINUS  &kp PLUS       &kp N1   &kp N2  &kp N3  &kp DOT    &trans  &kp F20
-                                   &kp LGUI  &kp SPACE    &trans    &kp RCTRL  &kp RET
+      &trans    &kp HOME    &kp EMD     &kp UP     &trans    &trans       &trans   &kp N7  &kp N8   &kp N9  &kp KP_MULTIPLY   &kp BSPC
+      &CAPSLOCK  &kp RIGHT_ALT  &kp LEFT  &kp DOWN     &kp RIGHT    &kp PRINTSCREEN       &kp MINUS   &kp N4  &kp N5    &kp N6    &trans  &kp DELETE
+&kp LGUI    &trans    &trans     &kp LSHFT  &kp LEFT_ALT  &kp TAB       &kp SLASH   &kp N1  &kp N2  &kp N3    &kp DOT  &kp RET
+                                   &trans  &kp SPACE    &trans    &trans  &kp N0
             >;
         };
 
