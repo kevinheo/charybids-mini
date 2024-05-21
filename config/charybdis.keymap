@@ -13,15 +13,6 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        ctrl+F5 {
-            bindings = <&kp LC(F5)>;
-            key-positions = <5 1>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
